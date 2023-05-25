@@ -25,15 +25,14 @@ section#login {
     overflow: hidden;
     background-color: white;
     width: 251px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px ;
     box-shadow: 0px 0px 10px black;
     transition: width 0.3s, height .3s;
     transition-timing-function: ease;
 }
 
-section#login > div#imagem {
-    display: block;
+section#login > div#imagem {    
     background: #83bcff url('../pexels-harriet-b-15470397.jpg');
     height: 200px;
     background-size: cover;
@@ -42,8 +41,7 @@ section#login > div#imagem {
 
 }
 
-#formulario {
-    display: block;
+#formulario {    
     padding: 10px;
 }
 
@@ -51,10 +49,92 @@ form {
     margin-top: 20px;
 }
 
-.divs {
-    display: block;
+.divs {    
     margin: auto;
     
 }
 
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+form >div.divs {
+    background-color: #246A73;
+    height: 39px;
+    border-radius: 10px;
+    margin: 8px 0px;
+}
+
+div > label {
+    display: none;
+    
+}
+
+div.divs > i {
+    font-size: 2em;
+    width: 40px;    
+    color: white;
+    padding: 4px;
+    
+}
+
+div.divs > input {
+    font-size: 1em;
+    background-color: #02282c;
+    height: 100%;
+    border: 0px;    
+    width: calc(100% - 45px);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+div.divs > input:focus-within {
+    background-color: white;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #246A73;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #164349;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #1b4d53;
+    margin-top: 5px;
+    padding-top: 6px;
+    border: 1px solid #1b4d53;
+    margin-top: 8px;
+}
+
+form > a.botao > i {
+    font-size: 0.9em;
+}
+
+form > a.botao:hover {
+    background-color: #1b4d53;
+    color: white;
+}
